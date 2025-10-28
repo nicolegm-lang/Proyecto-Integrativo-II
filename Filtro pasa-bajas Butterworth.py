@@ -4,7 +4,7 @@ from scipy.signal import butter, filtfilt
 import os
 
 # === CONFIGURACIÓN ===
-ruta_archivo = r"C:\IB\Proyecto-Integrativo-II\Base de datos\10 segundos\AB\AB30.csv"
+ruta_archivo = r"C:\IB\Proyecto-Integrativo-II\Base de datos\10 segundos\AB\AB2.csv"
 fs = 100     # Frecuencia de muestreo (Hz)
 fc = 8       # Frecuencia de corte (Hz)
 orden = 4    # Orden del filtro
