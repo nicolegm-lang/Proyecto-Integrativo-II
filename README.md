@@ -8,7 +8,7 @@ Este repositorio contiene todo el flujo de trabajo del proyecto:
 
 ---
 
-## 📦 Estructura general
+##  Estructura general
 
 | Carpeta | Descripción |
 |----------|-------------|
@@ -18,17 +18,22 @@ Este repositorio contiene todo el flujo de trabajo del proyecto:
 
 ---
 
-## ⚙️ Requisitos
+##  Requisitos
 
-### 🧩 MATLAB
+### MATLAB
 - MATLAB R2025a (o superior)
 - Toolboxes necesarios:
   - **Bluetooth Toolbox**
   - **Signal Processing Toolbox**
   - **Statistics and Machine Learning Toolbox**
 
-### 🐍 Python
+###  Python
 - Python 3.9+
 - Instalar dependencias:
   ```bash
   pip install pandas numpy scipy matplotlib scikit-learn
+
+
+### Autoras
+-Fernanda Nicole Gómez Martínez
+-Guadalupe Denisse Gónzalez Santos
