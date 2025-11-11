@@ -7,9 +7,11 @@ Incluye una **interfaz gráfica en MATLAB App Designer** con dos modos de operac
 - ** Modo B – Adquisición**: Captura de datos directamente desde los sensores BLE (WT901).
 - ** Modo A – Procesamiento offline**: Importación de archivos `.csv` previamente capturados para preprocesamiento, extracción de características y clasificación.
 
----
+
 
 ##  Estructura del repositorio
+
+---
 
 Proyecto-Integrativo-II/
 │
@@ -46,7 +48,7 @@ Proyecto-Integrativo-II/
 │
 ├── README.md
 
-
+---
 
 ##  Requisitos
 
