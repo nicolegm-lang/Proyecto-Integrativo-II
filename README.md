@@ -11,6 +11,8 @@ Incluye una **interfaz gráfica en MATLAB App Designer** con dos modos de operac
 
 ##  Estructura del repositorio
 
+```
+
 Proyecto-Integrativo-II/
 │
 ├── Base de datos/
@@ -52,7 +54,9 @@ Proyecto-Integrativo-II/
 │   └── Protocolo_experimental.pdf
 │
 ├── README.md                  # Documentación principal del repositorio
-└── LICENSE                    # Licencia del proyecto
+
+
+```
 
 ##  Requisitos
 
