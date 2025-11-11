@@ -11,8 +11,6 @@ Incluye una **interfaz gráfica en MATLAB App Designer** con dos modos de operac
 
 ##  Estructura del repositorio
 
----
-
 Proyecto-Integrativo-II/
 │
 ├── Base de datos/
@@ -30,25 +28,31 @@ Proyecto-Integrativo-II/
 │   │   └── SM/
 │   │
 │   └── Orden por sujeto/
-│       ├── S1/ … S8/         # Datos individuales por sujeto
+│       ├── S1/
+│       ├── S2/
+│       ├── S3/
+│       ├── S4/
+│       ├── S5/
+│       ├── S6/
+│       ├── S7/
+│       └── S8/               # Datos individuales por sujeto
 │
 ├── Códigos/
-│   ├── Clasificacion.ipynb
-│   ├── Procesamiento_de_senales.ipynb
-│   ├── Filtro pasa-bajas Butterworth.py
-│   ├── visualizacion_mov_manos.ipynb
-│   └── caracteristicas.csv
+│   ├── Clasificacion.ipynb                # Clasificación de movimientos
+│   ├── Procesamiento_de_senales.ipynb     # Preprocesamiento y filtrado
+│   ├── Filtro pasa-bajas Butterworth.py   # Script filtro Butterworth
+│   ├── visualizacion_mov_manos.ipynb      # Visualización de movimientos
+│   └── caracteristicas.csv                # Archivo de características
 │
 ├── Interfaz/
-│   ├── app6.mlapp             # App MATLAB principal (modo A y B)
+│   ├── app6.mlapp             # App MATLAB (modo A y B)
 │   ├── DeviceModel.m          # Comunicación BLE con sensor WT901
 │   ├── caracteristicas.csv    # Archivo de salida / features
 │   ├── trainLogRegECOC.m      # Modelo de clasificación (ECOC)
 │   └── Protocolo_experimental.pdf
 │
-├── README.md
-
----
+├── README.md                  # Documentación principal del repositorio
+└── LICENSE                    # Licencia del proyecto
 
 ##  Requisitos
 
