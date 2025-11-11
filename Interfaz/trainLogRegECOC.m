@@ -186,5 +186,4 @@ fprintf('Modelo entrenado. Validación (5-fold) accuracy = %.4f\n', validationAc
     end
 
 end
-
-[mdl, acc, resolvedNames]= trainLogRegECOC('caracteristicas.csv');
+trainLogRegECOC('caracteristicas.csv');

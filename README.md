@@ -1,14 +1,34 @@
-# Proyecto-Integrativo-II
-Clasificación de tres movimientos de la mano (arriba-abajo, izquierda-derecha y quieta) usando el sensor inercial WT9011DCL y modelos de Machine Learning. Se extraen y seleccionan características de señales IMU para entrenar clasificadores SVM, k-NN y arboles de desición.
+# Proyecto Integrativo II — Sistema de Captura, Procesamiento y Clasificación de Movimientos de Mano
 
-En la carpeta "Base de datos" encontrará 3 carpetas principales llamadas: 10 segundos, Orden por movimiento y Orden por sujeto.
+Este repositorio contiene todo el flujo de trabajo del proyecto:
+1. **Adquisición de datos** con un sensor IMU (WT901 BLE) desde MATLAB App Designer.
+2. **Procesamiento y filtrado** (Hampel + Butterworth) en Python y MATLAB.
+3. **Extracción de características y clasificación** mediante modelos supervisados.
+4. **Base de datos organizada** por sujeto y tipo de movimiento.
 
-Orden por sujeto: mediciones obtenidas directamente con el sensor inerciales a tráves de la aplicación Wit Motion.
+---
 
-Orden por movimiento: las mediciones separadas por clase de movimiento donde la carpeta "AB" corresponde al movimiento arriba-abajo, "ID" a izquierda-derecha y "SM" a sin movimiento.
+## 📦 Estructura general
 
-10 segundos: contiene las subcarpetas de las mediciones separadas por movimiento pero con duración estrictamente de 10 segundos (1000 muestras).
+| Carpeta | Descripción |
+|----------|-------------|
+| **Base de datos/** | Datos crudos y filtrados de los experimentos. |
+| **Códigos/** | Notebooks y scripts para procesamiento, visualización y clasificación. |
+| **Interfaz/** | Código de la App MATLAB (`app6.mlapp`) para captura BLE, calibración y guardado. |
 
-Por otra parte, la carpeta "Códigos" contiene los archivis .ipynb que puede ser ejecutados en JupyterNotebook, GoogleColab, VisualStudioCode etc. Para reproducir los códigos deberá cargar de la carpeta "Base de datos" los archivos .csv de cada clase de movimientos (AB,ID y SM).
+---
 
-Por último, se encuentra el protocolo experimental en archivo pdf, este muestra el procedimiento que se siguió para la obtención de señales con el sensor WT9011DCL.
+## ⚙️ Requisitos
+
+### 🧩 MATLAB
+- MATLAB R2025a (o superior)
+- Toolboxes necesarios:
+  - **Bluetooth Toolbox**
+  - **Signal Processing Toolbox**
+  - **Statistics and Machine Learning Toolbox**
+
+### 🐍 Python
+- Python 3.9+
+- Instalar dependencias:
+  ```bash
+  pip install pandas numpy scipy matplotlib scikit-learn
