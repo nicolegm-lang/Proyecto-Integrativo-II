@@ -10,6 +10,7 @@ Incluye una **interfaz gráfica en MATLAB App Designer** con dos modos de operac
 ---
 
 ##  Estructura del repositorio
+
 Proyecto-Integrativo-II/
 │
 ├── Base de datos/
@@ -45,7 +46,7 @@ Proyecto-Integrativo-II/
 │
 ├── README.md
 
----
+
 
 ##  Requisitos
 
